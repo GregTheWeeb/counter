@@ -1,8 +1,10 @@
 body {
     background: #CAF0F8;
+    display: flex;
+    justify-content: center;
 }
 
-.main {
+#main {
     background: #90E0EF;
     color: #001219;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,10 +15,14 @@ body {
     margin: 125px auto;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     font-size: 100px;
+    margin: 20px auto;
 }
 
 h2 {
@@ -30,7 +36,7 @@ button {
     font-size: 20px;
     font-weight: bold;
     width: 200px;
-    margin: 15px auto;
+    margin: 10px auto;
     padding: 10px 20px;
     border: 0;
     border-radius: 20px;
